@@ -18,9 +18,9 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg hero__button"
             to="/docs/intro">
-            Our Mission - 5min ⏱️
+            Our Mission
           </Link>
         </div>
       </div>
@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome to The ${siteConfig.title}`}
+      description="The Biomechanics Foundation's mission is to improve biomechanics research through software, education, and outreach.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
