@@ -41,6 +41,7 @@ const config = {
             ({
                 docs: {
                     sidebarPath: './sidebars.js',
+                    routeBasePath: '/',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     // editUrl:
@@ -64,7 +65,7 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
-            image: 'img/docusaurus-social-card.jpg',
+//            image: 'img/docusaurus-social-card.jpg',
             navbar: {
                 title: 'Biomechanics Foundation',
                 logo: {
@@ -89,39 +90,27 @@ const config = {
             footer: {
                 style: 'dark',
                 links: [
-                    {
-                        title: 'Docs',
-                        items: [
-                            {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
-                            },
-                        ],
-                    },
+                    //{
+                    //    title: 'Docs',
+                    //    items: [
+                    //        {
+                    //            label: 'Tutorial',
+                    //            to: '/docs/intro',
+                    //        },
+                    //    ],
+                    //},
                     {
                         title: 'Community',
                         items: [
-                       //     {
-                       //         label: 'Stack Overflow',
-                       //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                       //     },
                             {
                                 label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
+                                href: 'https://discordapp.com/invite/biomechanics-foundation',
                             },
                         ],
                     },
                     {
                         title: 'More',
                         items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
                             {
                                 label: 'GitHub',
                                 href: 'https://github.com/biomechanics-foundation',
