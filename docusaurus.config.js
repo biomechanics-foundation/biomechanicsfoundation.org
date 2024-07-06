@@ -39,14 +39,15 @@ const config = {
             'classic',
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
-                docs: {
-                    sidebarPath: './sidebars.js',
-                    routeBasePath: '/',
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    // editUrl:
-                    //   'https://github.com/biomechanics-foundation/biomechanicsfoundation.org/tree/main/packages/create-docusaurus/templates/shared/',
-                },
+            docs : false,
+               // docs: {
+               //     sidebarPath: './sidebars.js',
+               //     routeBasePath: '/',
+               //     // Please change this to your repo.
+               //     // Remove this to remove the "edit this page" links.
+               //     // editUrl:
+               //     //   'https://github.com/biomechanics-foundation/biomechanicsfoundation.org/tree/main/packages/create-docusaurus/templates/shared/',
+               // },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
@@ -74,8 +75,7 @@ const config = {
                 },
                 items: [
                     {
-                        type: 'docSidebar',
-                        sidebarId: 'tutorialSidebar',
+                        href: '/mission',
                         position: 'left',
                         label: 'Mission',
                     },
