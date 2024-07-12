@@ -17,20 +17,13 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-footer-background-color: #28363d;
-  font-family: 'Myriad Pro', 'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-family: "Titillium Web", sans-serif !important;
+  --ifm-font-family-base: "Titillium Web", sans-serif !important;
+  font-family: "Titillium Web", sans-serif !important;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #3ec9a7;
-  --ifm-color-primary-dark: #3ec9a7;
-  --ifm-color-primary-darker: #3ec9a7;
-  --ifm-color-primary-darkest: #3ec9a7;
-  --ifm-color-primary-light: #53cfb0;
-  --ifm-color-primary-lighter: #5dd2b5;
-  --ifm-color-primary-lightest: #7cdac3;
-  --ifm-background-color: #393f41;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+.footer {
+    background-color: #3d487a;
 }
 
 .hero--primary {
@@ -47,9 +40,9 @@
 }
 
 .hero__button {
-    background: #c567a6;
-    border: 1px solid #c567a6;
-    color: #fff !important;
+    background: #9b63aa;
+    border: 0px solid #fff;
+    color: #f2f2f2 !important;
 }
 
 

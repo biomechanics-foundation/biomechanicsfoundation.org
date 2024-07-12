@@ -39,15 +39,15 @@ const config = {
             'classic',
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
-            docs : false,
-               // docs: {
-               //     sidebarPath: './sidebars.js',
-               //     routeBasePath: '/',
-               //     // Please change this to your repo.
-               //     // Remove this to remove the "edit this page" links.
-               //     // editUrl:
-               //     //   'https://github.com/biomechanics-foundation/biomechanicsfoundation.org/tree/main/packages/create-docusaurus/templates/shared/',
-               // },
+                docs: false,
+                // docs: {
+                //     sidebarPath: './sidebars.js',
+                //     routeBasePath: '/',
+                //     // Please change this to your repo.
+                //     // Remove this to remove the "edit this page" links.
+                //     // editUrl:
+                //     //   'https://github.com/biomechanics-foundation/biomechanicsfoundation.org/tree/main/packages/create-docusaurus/templates/shared/',
+                // },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
@@ -65,13 +65,18 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            colorMode: {
+                defaultMode: 'light',
+                disableSwitch: true,
+                respectPrefersColorScheme: false,
+            },
             // Replace with your project's social card
-//            image: 'img/docusaurus-social-card.jpg',
+            image: 'img/biomechanics-foundation-social-card.png',
             navbar: {
                 title: 'Biomechanics Foundation',
                 logo: {
                     alt: 'Biomechanics Foundation Logo',
-                    src: 'img/logo.png',
+                    src: 'img/biomechanics-foundation-logo.png',
                 },
                 items: [
                     {
@@ -125,6 +130,9 @@ const config = {
                 darkTheme: prismThemes.dracula,
             },
         }),
+    stylesheets: [
+        'https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap',
+    ],
 };
 
 export default config;

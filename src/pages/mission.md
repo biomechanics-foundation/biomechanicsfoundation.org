@@ -1,3 +1,5 @@
+![Biomechanics Foundation Card](../../static/img/biomechanics-foundation-social-card.png)
+
 # Our Mission
 
 Biomechanics is the study of movement, forces, and structure of living creatures. Researchers who study biomechanics push forward our knowledge in spaces such as medicine, visual media, and sports. The Biomechanics Foundation is committed to facilitating continued growth and development of the biomechanics research community through a few key areas:
