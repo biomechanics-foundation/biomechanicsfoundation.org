@@ -9,7 +9,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Biomechanics Foundation',
-    tagline: 'Non-profit organization for biomechanics research and education',
+    tagline: 'Promoting biomechanics through software, education, and outreach',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
